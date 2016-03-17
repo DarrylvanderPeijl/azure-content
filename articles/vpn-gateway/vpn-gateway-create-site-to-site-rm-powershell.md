@@ -165,7 +165,7 @@ After a short while, the connection will be established.
 
 ## 9. Verify a VPN connection
 
-At this time, the site-to-site VPN connections created with Resource Manager are not visible in the Preview Portal. However, it's possible to verify that your connection succeeded by using *Get-AzureRmVirtualNetworkGatewayConnection –Debug*. In the future, we'll have a cmdlet for this, as well as the ability to view your connection in the Preview Portal.
+Site-to-site VPN connections created with Resource Manager and their connection status are visible in the Azure Portal. It's also possible to verify that your connection succeeded by using the *Get-AzureRmVirtualNetworkGatewayConnection –Debug* Powershell cmdlet. In the future, we'll have a dedicated cmdlet for this.
 
 You can use the following cmdlet example, configuring the values to match your own. When prompted, select *A* in order to run All.
 
